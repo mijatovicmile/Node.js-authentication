@@ -16,7 +16,7 @@ yarn start
 
 Body -> raw -> JSON
 
-```bash
+```JSON
 {
     "email": "your@email.com",
     "password": "yourpassword"
@@ -26,5 +26,7 @@ Body -> raw -> JSON
 ## APIs
 
 Signup - POST method - localhost:3000/api/user/signup
+
 Login - POST method - localhost:3000/api/user/login
+
 Delete account - DELETE method - localhost:3000/api/user/delete/:userId
